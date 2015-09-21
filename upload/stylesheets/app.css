@@ -5,7 +5,7 @@ Last modified January 2014
 
 html, body {
   /*background image modified from www.subtlepatterns.com*/ 
-  background: #F2F0E9 url("/images/ravenna.png") repeat fixed !important;
+  background: #F2F0E9 url("../images/ravenna.png") repeat fixed !important;
 }
 
 .action {
@@ -63,7 +63,7 @@ header.branding p a {
 }
 
 footer {
-  background: #5C7B69 url("/images/banner-foot.jpg") no-repeat center center;
+  background: #5C7B69 url("../images/banner-foot.jpg") no-repeat center center;
   color: white;
   padding-top: 1em;
   border-top: 7px solid #DAD8D2;
@@ -137,15 +137,15 @@ form.popup-form {
 }
 
 .reason-1 h2 {
-  background: #ddd url("/images/gardenplan.png") no-repeat center 60%;
+  background: #ddd url("../images/gardenplan.png") no-repeat center 60%;
 }
 
 .reason-2 h2 {
-  background: #ddd url("/images/gardenplan.png") no-repeat center center;
+  background: #ddd url("../images/gardenplan.png") no-repeat center center;
 }
 
 .reason-3 h2 {
-  background: #ddd url("/images/gardenplan.png") no-repeat 40% 70%;
+  background: #ddd url("../images/gardenplan.png") no-repeat 40% 70%;
 }
 
 .img-left {
@@ -174,7 +174,7 @@ form.popup-form {
 }
 
 .main-banner {
-  background: #5C7B69 url("/images/banner-main.jpg") no-repeat center center;
+  background: #5C7B69 url("../images/banner-main.jpg") no-repeat center center;
   width: 100%;
   max-height: auto;
   margin: 1em;
@@ -240,7 +240,7 @@ form.popup-form {
 }
 
 .about {
-  background: url("/images/gardenplan.png");
+  background: url("../images/gardenplan.png");
   border: 1px solid #DAD8D2;
 }
 
