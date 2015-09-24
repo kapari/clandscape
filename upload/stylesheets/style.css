@@ -1,0 +1,285 @@
+/*
+Created for Carruthers Landscape by Ariel Kaplan (www.arielkaplan.com) using Zurb Foundation 4.
+Last modified January 2014
+*/
+
+html, body {
+  /*background image modified from www.subtlepatterns.com*/
+  background: #F2F0E9 url("../images/ravenna.png") repeat fixed;
+}
+
+.action {
+  background-color: #d26b10;
+}
+
+header.branding {
+  padding: 1em;
+}
+
+header.branding h1 {
+  color: #5C7B69;
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 1.0;
+  margin: 0;
+  padding: 0;
+}
+
+header.branding img {
+  display: inline-block;
+}
+
+header.branding p {
+  color: #577F67;
+  line-height: 1.2em;
+  margin: 0;
+}
+
+header.branding p a {
+  color: #C15F0F;
+}
+
+.logotype {
+  margin-bottom: 0.5em;
+}
+
+.tagline {
+  font-family: 'Englebert', sans-serif;
+  font-size: 1.25em;
+  line-height: 1.275em;
+  padding-top: 0.3em;
+}
+
+.facebook {
+  margin-left: -10px;
+  height: 3.75em;
+}
+
+.quote h4 {
+  font-family: 'Englebert', sans-serif;
+  font-size: 1.5em;
+  line-height: 1.5em;
+}
+
+footer {
+  background: #5C7B69 url("../images/banner-foot.jpg") no-repeat center center;
+  color: white;
+  padding-top: 1em;
+  border-top: 7px solid #DAD8D2;
+}
+
+footer h5 {
+  font-family: 'Englebert', sans-serif;
+  font-size: 1.375em;
+  line-height: 1.375em;
+  color: white;
+  margin-bottom: 0;
+}
+
+footer p {
+  font-style: italic;
+}
+
+footer a {
+  color: #C57B3A;
+}
+
+footer a:hover {
+  color: #D6A375;
+}
+
+footer ul .overlay, footer p.overlay {
+  font-size: 1em;
+  font-weight: normal;
+  margin-bottom: 0;
+  display: block;
+}
+
+form.popup-form {
+  vertical-align: top;
+  z-index: 3;
+}
+
+.reasons {
+  padding: 1em;
+}
+
+.reasons ul {
+  padding-left: 0.5em;
+  list-style-type: none;
+}
+
+.reasons li {
+  padding-bottom: 0.5em;
+  padding-left: 1em;
+  text-indent: -1em;
+}
+
+.reasons li:before {
+  content: "•";
+  margin-right: 0.6em;
+}
+
+.reasons h2 {
+  /*font-family: 'Englebert', sans-serif;*/
+  text-transform: capitalize;
+  font-size: 2em;
+  padding-top: 0.2em;
+  color: #5C7B69;
+  font-weight: bold;
+  display: block;
+  text-align: center;
+  /*border-bottom: 4px solid #DAD8D2;
+  border-top: 1px solid #DAD8D2;
+  border-left: 1px solid #DAD8D2;*/
+  border: 1px solid #DAD8D2;
+}
+
+.reason-1 h2 {
+  background: #ddd url("../images/gardenplan.png") no-repeat center 60%;
+}
+
+.reason-2 h2 {
+  background: #ddd url("../images/gardenplan.png") no-repeat center center;
+}
+
+.reason-3 h2 {
+  background: #ddd url("../images/gardenplan.png") no-repeat 40% 70%;
+}
+
+.img-left {
+  float: left;
+  padding: 0.25em;
+  border: 1px solid #DAD8D2;
+  margin: 1em 1em 0 0;
+  vertical-align: text-top;
+}
+
+.img-right {
+  float: right;
+}
+
+.about a {
+  color: #C15F0F;
+}
+
+.about a:hover {
+  color: #AF560E;
+}
+
+.flex-video {
+  margin-top: 1em;
+  z-index: 1;
+}
+
+.main-banner {
+  background: #5C7B69 url("../images/banner-main.jpg") no-repeat center center;
+  width: 100%;
+  max-height: auto;
+  /*margin: 1em;*/
+  border-top: 7px solid #DAD8D2;
+  border-bottom: 7px solid #DAD8D2;
+}
+
+.main-banner ul {
+  padding: 1em;
+  margin-top: 1.2em;
+  list-style-type: none;
+}
+
+.main-banner .button.cta {
+  background-color: #C15F0F;
+  margin-left: 1.5em;
+  margin-top: -1em;
+  font-size: 1.25em;
+  border: 1px solid #AF560E;
+  font-weight: bold;
+}
+
+.cta.button:hover, .cta.button:focus {
+  background-color: #AF560E;
+}
+
+.overlay {
+  background-color: rgba(10, 50, 30, 0.75);
+  font-size: 1.2em;
+  font-weight: bold;
+  color: white;
+  line-height: 1.2em;
+  display: inline-block;
+  padding: 0.3em 0.5em;
+  margin-bottom: 0.6em;
+}
+
+.overlay.links {
+  font-weight: normal;
+  font-size: 1em;
+  padding: 0.5em;
+}
+
+.overlay ul {
+  margin-bottom: 0;
+}
+
+.descript {
+  font-family: 'Englebert', sans-serif;
+  font-weight: 500;
+}
+
+.angies {
+  padding: 1em 0.5em;
+  background-color: white;
+  border: 1px solid #DAD8D2;
+  text-align: center;
+}
+
+.angies a {
+  color: #AF560E;
+  line-height: 1.2em;
+}
+
+.about {
+  background: url("../images/gardenplan.png");
+  border: 1px solid #DAD8D2;
+}
+
+.reveal-modal {
+  margin: auto;
+  position: absolute;
+}
+
+[data-clearing] {
+  margin-left: 0;
+}
+
+.photos [data-clearing] li {
+  margin-right: 0 !important;
+}
+
+.th {
+  max-width: 100%;
+  height: auto;
+}
+
+.row .about {
+  padding-left: 1em;
+}
+.row .about h2 {
+  line-height: 1em;
+  margin-top: 0;
+}
+
+form.full-form {
+  background-color: #f2f0e9;
+  border: 1px solid #DAD8D2;
+  padding: 1em 2em 1em 2em;
+}
+
+ul.links {
+  list-style-type: none;
+}
+
+ul.links a {
+  color: white;
+}
