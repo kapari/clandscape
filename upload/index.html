@@ -289,7 +289,6 @@
     <script>
     $('#clformtop')
     .on('valid', function () {
-
         var name = $("input#name1").val();
         var email = $("input#email1").val();
         var phone = $("input#phone1").val();
@@ -298,7 +297,6 @@
         '&email=' + email +
         '&phone=' + phone +
         '&message=' + message;
-
         $.ajax({
             type: "POST",
             url: "mail.php",
@@ -314,7 +312,6 @@
     <script>
     $('#clform')
     .on('valid', function () {
-
         var name = $("input#name").val();
         var email = $("input#email").val();
         var phone = $("input#phone").val();
@@ -323,7 +320,6 @@
         '&email=' + email +
         '&phone=' + phone +
         '&message=' + message;
-
         $.ajax({
             type: "POST",
             url: "mail.php",
