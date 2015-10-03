@@ -258,6 +258,10 @@ background: #ddd url("../images/gardenplan.png") no-repeat 40% 70%;
     margin-right: 0 !important;
 }
 
+.photos {
+    margin-top: 1.5em;
+}
+
 .th {
     max-width: 100%;
     height: auto;
