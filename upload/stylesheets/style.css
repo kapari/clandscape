@@ -240,6 +240,23 @@ background: #ddd url("../images/gardenplan.png") no-repeat 40% 70%;
     line-height: 1.2em;
 }
 
+.angies-super-service {
+    text-align: center;
+}
+
+.angies-super-service img:hover {
+    opacity: 0.75;
+}
+
+.angies-super-service img {
+    -ms-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+    transition: opacity .25s ease-in-out;
+    display: inline-block;
+    margin: 0 auto;
+    opacity: 1;
+}
+
 .about {
     background: url("../images/gardenplan.png");
     border: 1px solid #DAD8D2;
